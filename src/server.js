@@ -1,4 +1,4 @@
-//Importa bibliotecas da aplicação
+//Importa as bibliotecas da aplicação
 import "dotenv/config";
 import express from "express";
 import userController from "./app/controller/userController";
@@ -13,6 +13,6 @@ app.use(express.json());
 app.post("/users", userController.store);
 
 //Executa o servidor
-app.listen(process.env.PORT, () => {
-    console.log(`Server running on the port ${process.env.PORT}`);
+app.listen(process.env.SERVER_PORT, () => {
+    console.log(`Server running on the port ${process.env.SERVER_PORT}`);
 });
