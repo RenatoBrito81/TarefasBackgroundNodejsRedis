@@ -1,3 +1,4 @@
+//Importa as bibliotecas
 import nodemailer from "nodemailer";
 
 export default nodemailer.createTransport({
