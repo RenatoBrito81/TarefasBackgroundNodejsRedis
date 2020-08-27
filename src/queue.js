@@ -2,5 +2,5 @@
 import "dotenv/config";
 import Queue from "../src/app/lib/queue";
 
-//Chama a fila de backuground
+//Processa a fila de background
 Queue.process()

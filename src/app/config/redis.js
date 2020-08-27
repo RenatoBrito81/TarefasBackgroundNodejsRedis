@@ -1,3 +1,4 @@
+//Configuração para acesso ao redis
 export default {
     redis: {
         port: process.env.REDIS_PORT, 
