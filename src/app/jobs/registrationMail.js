@@ -8,7 +8,8 @@ export default {
     //Opções da fila de background
     options:{
         delay: 5000,
-        priority: 3
+        priority: 3,
+        lifo: true
     },
 
     //Função para registra da fila de backuground
